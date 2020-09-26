@@ -96,14 +96,35 @@ p {
     color: hsl(136, 65%, 51%);
 }
 
-
-
-
-
-
-
-
-
+/* Footer */
+#main-footer {
+    background-color: hsl(233, 26%, 24%);
+    font-size: 16px;
+}
+#main-footer a{ 
+    color: #fff ;
+}
+#main-footer a:hover { 
+    color: hsl(136, 65%, 51%); 
+}
+#logo {
+    width: 150px;
+}
+.socials img {
+    width: 25px;
+}
+.socials img:hover {
+    fill: hsl(136, 65%, 51%);;
+}
+#main-footer ul li{
+    list-style: none;
+}
+#request {
+    color: hsl(233, 8%, 62%);
+}
+#request a:hover {
+    color: hsl(0, 0%, 100%);
+}
 
 /* Media Classes */
 
@@ -112,8 +133,6 @@ p {
         text-align: center;
     }
   #main-header img{
-    /* position: relative !important; */
-    /* top: -12rem; */
     left: 0;
     bottom: 50%;
     order: 1;  
@@ -135,4 +154,5 @@ p {
     #why-content p{
         font-size: 15px;
     }
+    
 }
