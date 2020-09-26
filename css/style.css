@@ -18,6 +18,7 @@ img {
 }
 a, a:hover {
     text-decoration: none;
+    cursor: pointer;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -74,6 +75,26 @@ p {
     font-size: 18px;
 }
 
+/* Articles */
+.card {
+    background: inherit;
+    border: none;
+}
+.card img {
+    height: 180px;
+}
+.author {
+    font-size: 12px;
+}
+.card-note {
+    font-size: 14px;
+}
+.card a  {
+    color: hsl(233, 26%, 24%);
+}
+.card a:hover {
+    color: hsl(136, 65%, 51%);
+}
 
 
 
@@ -87,10 +108,6 @@ p {
 /* Media Classes */
 
 @media(max-width: 767px){
-    body {
-        padding-left: 7px;
-        padding-right: 7px;
-    }
     nav li {
         text-align: center;
     }
